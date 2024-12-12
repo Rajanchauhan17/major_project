@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Create</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo">CryptDrive</div>
+            <div class="caption">"Where Privacy Meets Convenience:CryptDrive."
+                 </div>
+                
+             </div>
+        <div class="right">
+            <div class="form-container" id="createAccountForm">
+                <h2>Create an account</h2>
+                <p>Already have an account? <a href="#" style="color:#a378d1" onclick="toggleForms()">Log in</a></p>
+                <form>
+                    <input type="text" placeholder="First ">
+                    <input type="text" placeholder="Last name">
+                    <input type="email" placeholder="Email">
+                    <input type="mobile No" placeholder="mobile No">
+
+                    <input type="password" placeholder="Enter your password">
+                    <label>
+                        <input type="checkbox"> I agree to the <a href="#" style="color: #a378d1;">Terms & Conditions</a>
+                    </label>
+                    <button type="submit">Create account</button>
+                </form>
+                
+            </div>
+            <div class="form-container" id="loginForm" style="display: none;">
+                <h2>Log In</h2>
+                <p>Don't have an account? <a href="#" style="color:#a378d1" onclick="toggleForms()">Create an account</a></p>
+                <form>
+                    <input type="mobile No" placeholder="mobile No">
+                    <input type="password" placeholder="Enter your password">
+                    <button type="submit">Log In</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

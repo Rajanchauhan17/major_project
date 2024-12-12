@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #251b36;
+    color: #ded3f1;
+}
+
+.container {
+
+    display: flex;
+    width:1080px;
+    height:550px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.left {
+    background-image: url('rahul.jpg');
+
+    background-size: cover;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    
+}
+
+.left .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(13, 14, 14);
+}
+
+
+
+.left .caption {
+
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.right {
+    background-color: #251b36;
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+}
+
+.right h2 {
+    margin-bottom: 20px;
+    
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.right form input[type="checkbox"] {
+    margin: 5;
+    width: auto;
+}
+
+.right form label {
+    margin-bottom: 28px;
+}
+
+.right form button {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #6d28dd;
+    
+
+    color: white;
+    cursor: pointer;
+}
+
+
+
